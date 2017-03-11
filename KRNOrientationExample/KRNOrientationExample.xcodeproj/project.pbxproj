@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		449AC2601E744386007E74DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 449AC25F1E744386007E74DA /* main.m */; };
+		449AC2631E744386007E74DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 449AC2621E744386007E74DA /* AppDelegate.m */; };
+		449AC2661E744386007E74DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449AC2651E744386007E74DA /* ViewController.m */; };
+		449AC2691E744386007E74DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449AC2671E744386007E74DA /* Main.storyboard */; };
+		449AC26B1E744386007E74DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 449AC26A1E744386007E74DA /* Assets.xcassets */; };
+		449AC26E1E744386007E74DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449AC26C1E744386007E74DA /* LaunchScreen.storyboard */; };
+		449AC2771E7443AB007E74DA /* KRNOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 449AC2761E7443AB007E74DA /* KRNOrientation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		449AC25B1E744386007E74DA /* KRNOrientationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRNOrientationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		449AC25F1E744386007E74DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		449AC2611E744386007E74DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		449AC2621E744386007E74DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		449AC2641E744386007E74DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		449AC2651E744386007E74DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		449AC2681E744386007E74DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		449AC26A1E744386007E74DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		449AC26D1E744386007E74DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		449AC26F1E744386007E74DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		449AC2751E7443AB007E74DA /* KRNOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KRNOrientation.h; path = ../../KRNOrientation/KRNOrientation.h; sourceTree = "<group>"; };
+		449AC2761E7443AB007E74DA /* KRNOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KRNOrientation.m; path = ../../KRNOrientation/KRNOrientation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		449AC2581E744386007E74DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		449AC2521E744386007E74DA = {
+			isa = PBXGroup;
+			children = (
+				449AC25D1E744386007E74DA /* KRNOrientationExample */,
+				449AC25C1E744386007E74DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		449AC25C1E744386007E74DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				449AC25B1E744386007E74DA /* KRNOrientationExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		449AC25D1E744386007E74DA /* KRNOrientationExample */ = {
+			isa = PBXGroup;
+			children = (
+				449AC2751E7443AB007E74DA /* KRNOrientation.h */,
+				449AC2761E7443AB007E74DA /* KRNOrientation.m */,
+				449AC2611E744386007E74DA /* AppDelegate.h */,
+				449AC2621E744386007E74DA /* AppDelegate.m */,
+				449AC2641E744386007E74DA /* ViewController.h */,
+				449AC2651E744386007E74DA /* ViewController.m */,
+				449AC2671E744386007E74DA /* Main.storyboard */,
+				449AC26A1E744386007E74DA /* Assets.xcassets */,
+				449AC26C1E744386007E74DA /* LaunchScreen.storyboard */,
+				449AC26F1E744386007E74DA /* Info.plist */,
+				449AC25E1E744386007E74DA /* Supporting Files */,
+			);
+			path = KRNOrientationExample;
+			sourceTree = "<group>";
+		};
+		449AC25E1E744386007E74DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				449AC25F1E744386007E74DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		449AC25A1E744386007E74DA /* KRNOrientationExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449AC2721E744386007E74DA /* Build configuration list for PBXNativeTarget "KRNOrientationExample" */;
+			buildPhases = (
+				449AC2571E744386007E74DA /* Sources */,
+				449AC2581E744386007E74DA /* Frameworks */,
+				449AC2591E744386007E74DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRNOrientationExample;
+			productName = KRNOrientationExample;
+			productReference = 449AC25B1E744386007E74DA /* KRNOrientationExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		449AC2531E744386007E74DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ulian_onua;
+				TargetAttributes = {
+					449AC25A1E744386007E74DA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E8TPSF9L49;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 449AC2561E744386007E74DA /* Build configuration list for PBXProject "KRNOrientationExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 449AC2521E744386007E74DA;
+			productRefGroup = 449AC25C1E744386007E74DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				449AC25A1E744386007E74DA /* KRNOrientationExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		449AC2591E744386007E74DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449AC26E1E744386007E74DA /* LaunchScreen.storyboard in Resources */,
+				449AC26B1E744386007E74DA /* Assets.xcassets in Resources */,
+				449AC2691E744386007E74DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		449AC2571E744386007E74DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449AC2661E744386007E74DA /* ViewController.m in Sources */,
+				449AC2631E744386007E74DA /* AppDelegate.m in Sources */,
+				449AC2771E7443AB007E74DA /* KRNOrientation.m in Sources */,
+				449AC2601E744386007E74DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		449AC2671E744386007E74DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				449AC2681E744386007E74DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		449AC26C1E744386007E74DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				449AC26D1E744386007E74DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		449AC2701E744386007E74DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		449AC2711E744386007E74DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		449AC2731E744386007E74DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E8TPSF9L49;
+				INFOPLIST_FILE = KRNOrientationExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ulian-onua.KRNOrientationExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		449AC2741E744386007E74DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E8TPSF9L49;
+				INFOPLIST_FILE = KRNOrientationExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ulian-onua.KRNOrientationExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		449AC2561E744386007E74DA /* Build configuration list for PBXProject "KRNOrientationExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449AC2701E744386007E74DA /* Debug */,
+				449AC2711E744386007E74DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449AC2721E744386007E74DA /* Build configuration list for PBXNativeTarget "KRNOrientationExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449AC2731E744386007E74DA /* Debug */,
+				449AC2741E744386007E74DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 449AC2531E744386007E74DA /* Project object */;
+}
